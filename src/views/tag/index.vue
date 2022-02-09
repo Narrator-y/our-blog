@@ -292,7 +292,7 @@ export default {
     }
 
     .header-item-active {
-      color: #007fff;
+      color: #7251b5;
     }
   }
 }

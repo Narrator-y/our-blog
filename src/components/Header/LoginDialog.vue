@@ -48,7 +48,7 @@
     </p>
     <p style="clear: both;">
       注册登录即表示同意
-      <span style="color: #007fff;">
+      <span style="color: #7251b5;">
         <span class="btn" @click="terms">用户协议</span>
         <span class="btn" @click="privacy">隐私政策</span>
       </span>
@@ -270,7 +270,7 @@ export default {
   }
 
   .active {
-    color: #007fff;
+    color: #7251b5;
   }
 
   .el-input {
@@ -282,7 +282,7 @@ export default {
   }
 
   .code-btn {
-    color: #007fff;
+    color: #7251b5;
     position: relative;
     top: 10px;
     right: 5px;

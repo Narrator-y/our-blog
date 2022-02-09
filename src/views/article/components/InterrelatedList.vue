@@ -90,7 +90,7 @@ export default {
         line-height: 18px;
 
         &:hover {
-          color: #007fff;
+          color: #7251b5;
           text-decoration: underline;
         }
       }

@@ -260,7 +260,7 @@ export default {
         margin-top: 15px;
         font-size: 14px;
         font-weight: 400;
-        color: #007fff;
+        color: #7251b5;
 
         li {
           list-style: none;

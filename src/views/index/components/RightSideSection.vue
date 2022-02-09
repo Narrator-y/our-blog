@@ -85,7 +85,7 @@
   margin: 20px 0;
 
   a:hover {
-    color: #007fff;
+    color: #7251b5;
   }
 
   .follow-section {

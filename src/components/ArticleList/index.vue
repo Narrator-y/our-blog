@@ -127,7 +127,7 @@ export default {
       cursor: pointer;
 
       &:hover {
-        color: #007fff;
+        color: #7251b5;
       }
     }
 
@@ -239,7 +239,7 @@ export default {
           margin-right: 3px;
 
           &:hover {
-            border: 1px #007fff solid;
+            border: 1px #7251b5 solid;
           }
         }
       }

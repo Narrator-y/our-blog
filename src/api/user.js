@@ -6,12 +6,13 @@ import request from '@/utils/request'
  */
 export function accountLogin(params) {
   return request({
-    url: '/account/login',
-    headers: {
-      'Authorization': 'Basic cGM6MTIzNDU2'
-    },
-    method: 'post',
-    params: params
+    url: '/ping'
+    // url: '/account/login',
+    // headers: {
+    //   'Authorization': 'Basic cGM6MTIzNDU2'
+    // },
+    // method: 'post',
+    // params: params
   })
 }
 

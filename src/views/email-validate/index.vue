@@ -11,7 +11,7 @@
           <el-button type="primary" style="width: 100%;" :loading="loading" @click="submit">确定</el-button>
         </el-form-item>
         <el-form-item style="text-align: center;">
-          <router-link to="/" type="text" style="width: 100%;text-align: center;color: #007fff;">返回首页</router-link>
+          <router-link to="/" type="text" style="width: 100%;text-align: center;color: #7251b5;">返回首页</router-link>
         </el-form-item>
       </el-form>
       <div v-show="success" class="success-content">
@@ -21,7 +21,7 @@
     </div>
     <div v-show="success" class="tip-content">
       若你没有收到邮件可以：检查你的垃圾邮件，是否包含验证邮件；或者&ensp;
-      <span style="color: #007fff;font-size: 12px;" class="btn" @click="success = 0">重新发送验证邮件</span>
+      <span style="color: #7251b5;font-size: 12px;" class="btn" @click="success = 0">重新发送验证邮件</span>
     </div>
   </div>
 </template>
@@ -106,7 +106,7 @@ export default {
       margin: 0 auto;
 
       .code-btn {
-        color: #007fff;
+        color: #7251b5;
         position: relative;
         right: 10px;
       }

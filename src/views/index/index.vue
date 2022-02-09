@@ -1,6 +1,7 @@
 <template>
   <div ref="container" class="home-container">
     <app-header />
+    <el-button @click="onClick">click</el-button>
     <div class="content-container">
       <div class="side-left">
         <ul class="list-header">
@@ -46,6 +47,7 @@ import RightSideComment from './components/RightSideComment'
 import RightSideRecommend from './components/RightSideRecommend'
 import RightSideSection from './components/RightSideSection'
 import { pagePublishedArticle } from '@/api/article.js'
+import {accountLogin} from "@/api/user";
 export default {
   name: 'Index',
   components: {
@@ -83,6 +85,16 @@ export default {
   },
 
   methods: {
+
+    onClick() {
+      accountLogin(
+        {
+
+        }
+      ).then(res => {
+        console.log(res)
+      })
+    },
 
     // 热门|最新切换
     mainTabClick(index) {
@@ -176,12 +188,12 @@ export default {
           }
 
           &:hover {
-            color: #007fff;
+            color: #7251b5;
           }
         }
 
         .main-active {
-          color: #007fff;
+          color: #7251b5;
         }
       }
 

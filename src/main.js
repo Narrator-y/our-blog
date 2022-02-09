@@ -4,7 +4,11 @@ import Vue from 'vue'
 import 'normalize.css/normalize.css'
 
 // ElementUI 按需加载
-import './element-ui.js'
+// import './element-ui.js'
+import '@/styles/theme/index.css'
+import ElementUI from 'element-ui'
+
+Vue.use(ElementUI)
 
 // 富文本编辑器
 import VueQuillEditor from 'vue-quill-editor'

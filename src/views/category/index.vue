@@ -187,7 +187,7 @@ export default {
           border-radius: 3px;
 
           &:hover {
-            color: #007fff;
+            color: #7251b5;
             background: #f4f5f5;
           }
         }
@@ -198,11 +198,11 @@ export default {
         font-weight: 700;
 
         .item-content {
-          background: #007fff;
+          background: #7251b5;
 
           &:hover {
             color: #fff;
-            background: #007fff;
+            background: #7251b5;
           }
         }
       }
@@ -240,7 +240,7 @@ export default {
         }
 
         .header-item-active {
-          color: #007fff;
+          color: #7251b5;
         }
       }
 

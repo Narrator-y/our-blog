@@ -266,18 +266,18 @@ export default {
           margin-top: 0;
 
           &:hover {
-            color: #007fff;
+            color: #7251b5;
             background: #f4f5f5;
           }
         }
 
         .tab-active {
           color: #fff;
-          background: #007fff;
+          background: #7251b5;
 
           &:hover {
             color: #fff;
-            background: #007fff;
+            background: #7251b5;
           }
         }
       }
@@ -429,18 +429,18 @@ export default {
       width: 100px;
 
       &:hover {
-        color: #007fff;
+        color: #7251b5;
         background: #f4f5f5;
       }
     }
 
     .tab-active {
       color: #fff;
-      background: #007fff;
+      background: #7251b5;
 
       &:hover {
         color: #fff;
-        background: #007fff;
+        background: #7251b5;
       }
     }
 

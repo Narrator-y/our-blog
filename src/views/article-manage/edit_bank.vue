@@ -142,7 +142,7 @@ export default {
     addPreviewTool() {
       // 自定义预览按钮
       const btn = document.querySelector('.ql-preview')
-      btn.style.cssText = 'min-width: 50px;color: #007fff;font-size: 14px;'
+      btn.style.cssText = 'min-width: 50px;color: #7251b5;font-size: 14px;'
       btn.innerText = '预览'
     },
 

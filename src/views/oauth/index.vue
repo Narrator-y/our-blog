@@ -9,7 +9,7 @@
     <div v-if="!loading && !success" class="content-box">
       <h3 class="name">登录失败</h3>
       <p class="content">{{ content }}</p>
-      <router-link to="/" type="text" style="width: 100%;text-align: center;color: #007fff;">返回首页</router-link>
+      <router-link to="/" type="text" style="width: 100%;text-align: center;color: #7251b5;">返回首页</router-link>
     </div>
   </div>
 </template>

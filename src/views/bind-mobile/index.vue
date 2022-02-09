@@ -29,7 +29,7 @@
           >提交</el-button>
         </el-form-item>
         <el-form-item style="text-align: center;">
-          <router-link to="/" type="text" style="width: 100%;text-align: center;color: #007fff;">返回首页</router-link>
+          <router-link to="/" type="text" style="width: 100%;text-align: center;color: #7251b5;">返回首页</router-link>
         </el-form-item>
       </el-form>
     </div>
@@ -181,7 +181,7 @@ export default {
       margin-top: 30px;
 
       .code-btn {
-        color: #007fff;
+        color: #7251b5;
         position: relative;
         right: 10px;
       }

@@ -501,7 +501,7 @@ export default {
 
         .action-box {
           font-size: 12px;
-          color: #007fff;
+          color: #7251b5;
           margin-right: 10px;
           margin-left: 10px;
 
@@ -514,7 +514,7 @@ export default {
         .el-button--text {
           font-weight: 400;
           font-size: 12px;
-          color: #007fff;
+          color: #7251b5;
         }
 
         .avatar-wrapper {

@@ -76,7 +76,7 @@ export default {
     .right {
       float: right;
       font-size: 12px;
-      color: #007fff;
+      color: #7251b5;
     }
   }
 

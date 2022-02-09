@@ -1,6 +1,6 @@
 module.exports = {
 
-  title: '个人阅读分享',
+  title: 'Our Blog',
 
   /**
    * @type {boolean} true | false
@@ -17,6 +17,6 @@ module.exports = {
   /**
    * @description 用户未上传头像时使用的默认头像
    */
-  defaultAvatar: 'https://poile-img.nos-eastchina1.126.net/without-avatar.png'
+  defaultAvatar: 'https://poile-img.nos-eastchina1.126.net/logo.png'
 
 }

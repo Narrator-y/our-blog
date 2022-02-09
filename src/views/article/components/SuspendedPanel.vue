@@ -254,18 +254,18 @@ export default {
     }
 
     .like-warpper {
-      color: #007fff;
+      color: #7251b5;
 
       /deep/ .el-badge__content {
-        background: #007fff;
+        background: #7251b5;
       }
     }
 
     .collect-warpper {
-      color: #007fff;
+      color: #7251b5;
 
       /deep/ .el-badge__content {
-        background: #007fff;
+        background: #7251b5;
       }
     }
   }
@@ -293,7 +293,7 @@ export default {
       }
 
       &:hover {
-        color: #007fff;
+        color: #7251b5;
       }
 
       .svg-icon {
@@ -314,7 +314,7 @@ export default {
       }
 
       &:hover {
-        color: #007fff;
+        color: #7251b5;
       }
     }
   }

@@ -132,7 +132,7 @@ export default {
           cursor: pointer;
 
           &:hover {
-            color: #007fff;
+            color: #7251b5;
             text-decoration: underline;
           }
         }

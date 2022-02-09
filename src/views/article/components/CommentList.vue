@@ -589,7 +589,7 @@ export default {
 
               .nickname {
                 float: left;
-                color: #007fff;
+                color: #7251b5;
                 font-weight: 700;
                 font-size: 14px;
                 padding: 0;
@@ -634,7 +634,7 @@ export default {
                 margin-left: 10px;
 
                 &:hover {
-                  color: #007fff;
+                  color: #7251b5;
                 }
               }
             }
@@ -687,7 +687,7 @@ export default {
                   .nickname {
                     font-weight: 700;
                     padding-top: 13px;
-                    color: #007fff;
+                    color: #7251b5;
                     padding-left: 10px;
 
                     &:after {
@@ -739,7 +739,7 @@ export default {
                     margin-left: 10px;
 
                     &:hover {
-                      color: #007fff;
+                      color: #7251b5;
                     }
                   }
                 }
