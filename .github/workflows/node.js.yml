@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [14.18.2]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -28,15 +28,15 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build:prod
-
+    
     - name: Deploy to Server      # 第四步，rsync推送文件
       uses: AEnterprise/rsync-deploy@v1.0  # 使用别人包装好的步骤镜像
       env:
         DEPLOY_KEY: ${{ secrets.SERVER_SSH_KEY }}   # 引用配置，SSH私钥
         ARGS: -avz --delete --exclude='*.pyc'   # rsync参数，排除.pyc文件
-        SERVER_PORT: '1107'  # SSH端口
-        FOLDER: ./build/*  # 要推送的文件夹，路径相对于代码仓库的根目录
+        SERVER_PORT: '22'  # SSH端口
+        FOLDER: ./dist/*  # 要推送的文件夹，路径相对于代码仓库的根目录
         SERVER_IP: ${{ secrets.REMOTE_HOST }}  # 引用配置，服务器的host名（IP或者域名domain.com）
         USERNAME: ${{ secrets.REMOTE_USER }}  # 引用配置，服务器登录名
         SERVER_DESTINATION: /www/our-blog   # 部署到目标文件夹
-
+    
